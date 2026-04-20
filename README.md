@@ -42,10 +42,6 @@ This project follows a CI/CD pipeline architecture:
 * Jenkins
 * AWS EC2
 
-### 🔄 Flow Summary
-
-GitHub → Jenkins → Docker Build → Docker Run → Live Application
-
 ---
 
 ## 🔄 CI/CD Pipeline Flow
@@ -55,6 +51,9 @@ GitHub → Jenkins → Docker Build → Docker Run → Live Application
 3. Runs container
 4. Deploys Django app
 
+### 🔄 Flow Summary
+
+GitHub → Jenkins → Docker Build → Docker Run → Live Application
 ---
 
 ## 📸 Screenshots
