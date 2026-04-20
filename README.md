@@ -34,10 +34,6 @@ This project follows a CI/CD pipeline architecture:
 
 ---
 
-### 🔄 Flow Summary
-
-GitHub → Jenkins → Docker Build → Docker Run → Live Application
-
 
 ## ⚙️ Tech Stack
 
@@ -45,6 +41,10 @@ GitHub → Jenkins → Docker Build → Docker Run → Live Application
 * Docker
 * Jenkins
 * AWS EC2
+
+### 🔄 Flow Summary
+
+GitHub → Jenkins → Docker Build → Docker Run → Live Application
 
 ---
 
