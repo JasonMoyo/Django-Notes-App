@@ -5,6 +5,39 @@
 This project demonstrates a complete CI/CD pipeline using Jenkins and Docker to deploy a Django application.
 
 ---
+## 🏗️ Architecture
+![Architecture](screenshots/architecture.png)
+
+## 🏗️ Architecture Diagram Explanation
+
+This project follows a CI/CD pipeline architecture:
+
+1. **GitHub Repository**
+
+   * Stores the Django application code
+   * Triggers Jenkins pipeline on updates
+
+2. **Jenkins Server (AWS EC2)**
+
+   * Pulls latest code from GitHub
+   * Executes pipeline stages
+
+3. **Docker**
+
+   * Builds Docker image from Django app
+   * Runs containerized application
+
+4. **Deployment**
+
+   * Container is exposed via port `8000`
+   * Accessible through EC2 public IP
+
+---
+
+### 🔄 Flow Summary
+
+GitHub → Jenkins → Docker Build → Docker Run → Live Application
+
 
 ## ⚙️ Tech Stack
 
